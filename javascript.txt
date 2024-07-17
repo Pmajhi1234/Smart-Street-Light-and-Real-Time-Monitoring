@@ -1,0 +1,16 @@
+var lineGraph1 = new boltGraph();
+lineGraph1.setChartType("lineGraph");
+lineGraph1.setAxisName('Time','No. of Vehicle');
+lineGraph1.plotChart('time_stamp','count1');
+
+
+var lineGraph2 = new boltGraph();
+lineGraph2.setChartType("lineGraph");
+lineGraph2.setAxisName('Time','No. of Vehicle');
+lineGraph2.plotChart('time_stamp','count2');
+
+
+var lineGraph3 = new boltGraph();
+lineGraph3.setChartType("lineGraph");
+lineGraph3.setAxisName('Time','No. of Vehicle');
+lineGraph3.plotChart('time_stamp','count3');
