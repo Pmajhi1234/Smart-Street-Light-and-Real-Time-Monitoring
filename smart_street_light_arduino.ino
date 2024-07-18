@@ -21,12 +21,12 @@ const unsigned long duration = 2000; // Duration for the LED to stay on (in mill
 
 int sensor2 = 27; // Pin for sensor 2
 int led2 = 26; // Pin for LED 2
-int count2 = 0; 
+int count2 = 0;  // Counter for sensor 2 activations
 unsigned long ledOnTime2 = 0; 
 
 int sensor3 = 33; // Pin for sensor 3
 int led3 = 32; // Pin for LED 3
-int count3 = 0; 
+int count3 = 0;  // Counter for sensor 3 activations
 unsigned long ledOnTime3 = 0; 
 
 const unsigned long interval = 1 * 30 * 1000; // 1 minute interval for checking the time
